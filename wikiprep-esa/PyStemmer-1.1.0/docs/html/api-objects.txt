@@ -1,0 +1,11 @@
+Stemmer	Stemmer-module.html
+Stemmer.version	Stemmer-module.html#version
+Stemmer.algorithms	Stemmer-module.html#algorithms
+Stemmer.__package__	Stemmer-module.html#__package__
+Stemmer.Stemmer	Stemmer.Stemmer-class.html
+Stemmer.Stemmer.__new__	Stemmer.Stemmer-class.html#__new__
+Stemmer.Stemmer.stemWords	Stemmer.Stemmer-class.html#stemWords
+Stemmer.Stemmer.stemWord	Stemmer.Stemmer-class.html#stemWord
+Stemmer.Stemmer.maxCacheSize	Stemmer.Stemmer-class.html#maxCacheSize
+Stemmer.Stemmer.__init__	Stemmer.Stemmer-class.html#__init__
+Stemmer.Stemmer.__purgeCache	Stemmer.Stemmer-class.html#__purgeCache
