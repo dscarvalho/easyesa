@@ -200,9 +200,9 @@ Query for the concept vector overlapping between the words _computing_ and _sens
 
 ## 7\. Demonstrations  
 
-Simple semantic search ([link](http://vmdeb20.deri.ie/esa-demo/semsearch.html)): Add data items (e.g. apple, juice, einstein, theory, speed of light, ...) and do a keyword search (e.g. relativity). Video: [avi](http://treo.deri.ie/iswc2014demo/semantic_search.avi) [ogv](http://treo.deri.ie/iswc2014demo/semantic_search.ogv).  
+Simple semantic search ([link](http://vmdeb20.deri.ie/esa-demo/semsearch.html)): Add data items (e.g. apple, juice, einstein, theory, speed of light, ...) and do a keyword search (e.g. relativity). Video: ([avi](http://treo.deri.ie/iswc2014demo/semantic_search.avi)) ([ogv](http://treo.deri.ie/iswc2014demo/semantic_search.ogv)).  
 
-Simple word sense disambiguation ([link](http://vmdeb20.deri.ie/esa-demo/sensedisambig.html)): Add a sentence (e.g. the power grid went down), select a word to get the ranked senses (e.g. power). Video: [avi](http://treo.deri.ie/iswc2014demo/word_sense_disambiguation.avi) [ogv](http://treo.deri.ie/iswc2014demo/word_sense_disambiguation.ogv).  
+Simple word sense disambiguation ([link](http://vmdeb20.deri.ie/esa-demo/sensedisambig.html)): Add a sentence (e.g. the power grid went down), select a word to get the ranked senses (e.g. power). Video: ([avi](http://treo.deri.ie/iswc2014demo/word_sense_disambiguation.avi)) ([ogv](http://treo.deri.ie/iswc2014demo/word_sense_disambiguation.ogv)).
 
 ## 8\. License
 
@@ -216,7 +216,7 @@ An EasyESA benchmark is available [here](http://easy-esa.org/easyesa_bench_resul
 
 Please refer to the publication below if you are using ESA in your experiments.  
 
-Danilo Carvalho, Çağatay Çallı, André Freitas, Edward Curry, _EasyESA: A Low-effort Infrastructure for Explicit Semantic Analysis_, In Proceedings of the 13th International Semantic Web Conference (ISWC), Rival del Garda, 2014\. (Demonstration Paper in Proceedings)[pdf](http://andrefreitas.org/papers/easyesa_demo_2014.pdf)
+Danilo Carvalho, Çağatay Çallı, André Freitas, Edward Curry, _EasyESA: A Low-effort Infrastructure for Explicit Semantic Analysis_, In Proceedings of the 13th International Semantic Web Conference (ISWC), Rival del Garda, 2014\. (Demonstration Paper in Proceedings) ([pdf](http://andrefreitas.org/papers/easyesa_demo_2014.pdf))
 
 ## 11\. Contact  
 
@@ -226,4 +226,4 @@ Insight Centre for Data Analytics
 Digital Enterprise Research Institute (DERI)  
 National University of Ireland, Galway  
 
-contact: andre - dot - freitas | at | deri [dot] org
+contact: danilo | at | jaist [dot] ac [dot] jp, andre - dot - freitas | at | deri [dot] org
