@@ -59,7 +59,9 @@ EasyESA provides the following functionalities:
 ## 4\. Downloads
 
 Install [MongoDB](https://www.mongodb.org/downloads)  
-EasyESA distribution package: [easyEsa](http://labcores.ppgi.ufrj.br/easyesa/files/easyesa_dist.7z) (includes binaries and source) 
+
+EasyESA distribution package: [easyEsa](http://labcores.ppgi.ufrj.br/easyesa/files/easyesa_dist.7z) (includes binaries and source)
+
 Database and Indexes: [English Wikipedia 2013](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2013.tar.gz) ([Index](http://treo.deri.ie/esa_downloads/index_wikipedia_en_2013.zip)) or [English Wikipedia 2006](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2006.zip).  
 
 ## 5\. Installation
