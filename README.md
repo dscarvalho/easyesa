@@ -59,10 +59,8 @@ EasyESA provides the following functionalities:
 ## 4\. Downloads
 
 Install [MongoDB](https://www.mongodb.org/downloads)  
-EasyESA Binaries: [easyEsa](http://treo.deri.ie/esa_downloads/easy_esa.zip)  
-Source code: [easyEsa_src](http://treo.deri.ie/esa_downloads/easy_esa_src.zip)  
-Setup Script: [setup_all.sh](http://treo.deri.ie/esa_downloads/setup_all.sh)  
-Database and Indexes: [English Wikipedia 2013](http://treo.deri.ie/esa_downloads/data_wikipedia_en_2013.tar.gz) ([Index](http://treo.deri.ie/esa_downloads/index_wikipedia_en_2013.zip)) or [English Wikipedia 2006](http://treo.deri.ie/esa_downloads/data_wikipedia_en_2006.zip).  
+EasyESA distribution package: [easyEsa](http://labcores.ppgi.ufrj.br/easyesa/files/easyesa_dist.7z) (includes binaries and source) 
+Database and Indexes: [English Wikipedia 2013](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2013.tar.gz) ([Index](http://treo.deri.ie/esa_downloads/index_wikipedia_en_2013.zip)) or [English Wikipedia 2006](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2006.zip).  
 
 ## 5\. Installation
 
@@ -84,7 +82,7 @@ The setup can be done in three ways, depending on the user needs and memory/stor
 
 ### 5.1\. Simple run (Recommended)  
 
-You can download the EasyESA database and indexes for [English Wikipedia 2013](http://treo.deri.ie/esa_downloads/data_wikipedia_en_2013.zip) ([Index](http://treo.deri.ie/esa_downloads/index_wikipedia_en_2013.zip)) or [English Wikipedia 2006](http://treo.deri.ie/esa_downloads/data_wikipedia_en_2006.zip).  
+You can download the EasyESA database and indexes for [English Wikipedia 2013](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2013.zip) ([Index](http://labcores.ppgi.ufrj.br/easyesa/files/index_wikipedia_en_2013.zip)) or [English Wikipedia 2006](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2006.zip).  
 
 Simple procedure:  
 
@@ -123,6 +121,7 @@ If you already have a wikipedia dump and wish to use it, just comment line 5 of 
 
 <a name="toc8"></a>
 
+<!--
 ### 5.4\. From setup script with preprocessed Wikipedia database
 
 If you already have a wikipedia preprocessed dump (Zemanta format), place all the preprocessed .xml files in the destination directory and execute the setup_preprocessed.sh script:
@@ -131,6 +130,7 @@ If you already have a wikipedia preprocessed dump (Zemanta format), place all th
 </pre>
 
 The steps 1, 3 and 4 will be skipped.
+-->
 
 <a name="toc9"></a>
 
@@ -138,7 +138,7 @@ The steps 1, 3 and 4 will be skipped.
 
 EasyESA service can be used online from
 
-<pre>  http://vmdeb20.deri.ie:8890/esaservice 
+<pre>  http://labcores.ppgi.ufrj.br/esaservice 
 </pre>
 
 or locally
@@ -175,7 +175,7 @@ The service parameters are:
 
 #### 6.1.1\. Semantic relatedness measure query
 
-<pre>  http://vmdeb20.deri.ie:8890/esaservice?task=esa&term1=computing&term2=sensor
+<pre>  http://labcores.ppgi.ufrj.br/esaservice?task=esa&term1=computing&term2=sensor
 </pre>
 
 Query for the semantic relatedness measure between the words _computing_ and _sensor_.
@@ -184,7 +184,7 @@ Query for the semantic relatedness measure between the words _computing_ and _se
 
 #### 6.1.2\. Concept vector query
 
-<pre>  http://vmdeb20.deri.ie:8890/esaservice?task=vector&source=coffee&limit=50
+<pre>  http://labcores.ppgi.ufrj.br/esaservice?task=vector&source=coffee&limit=50
 </pre>
 
 Query for the concept vector of the word _coffee_ with maximum length of 50 concepts.
@@ -193,16 +193,18 @@ Query for the concept vector of the word _coffee_ with maximum length of 50 conc
 
 #### 6.1.3\. Explain query
 
-<pre>  http://vmdeb20.deri.ie:8890/esaservice?task=explain&term1=computing&term2=sensor&limit=10000
+<pre>  http://labcores.ppgi.ufrj.br/esaservice?task=explain&term1=computing&term2=sensor&limit=10000
 </pre>
 
 Query for the concept vector overlapping between the words _computing_ and _sensor_, and the context windows of both words for each concept in the overlap.  
 
 ## 7\. Demonstrations  
 
-Simple semantic search ([link](http://vmdeb20.deri.ie/esa-demo/semsearch.html)): Add data items (e.g. apple, juice, einstein, theory, speed of light, ...) and do a keyword search (e.g. relativity). Video: ([avi](http://treo.deri.ie/iswc2014demo/semantic_search.avi)) ([ogv](http://treo.deri.ie/iswc2014demo/semantic_search.ogv)).  
+<!--
+Simple semantic search ([link](http://labcores.ppgi.ufrj.br/esa-demo/semsearch.html)): Add data items (e.g. apple, juice, einstein, theory, speed of light, ...) and do a keyword search (e.g. relativity). Video: ([avi](http://treo.deri.ie/iswc2014demo/semantic_search.avi)) ([ogv](http://treo.deri.ie/iswc2014demo/semantic_search.ogv)).  
 
-Simple word sense disambiguation ([link](http://vmdeb20.deri.ie/esa-demo/sensedisambig.html)): Add a sentence (e.g. the power grid went down), select a word to get the ranked senses (e.g. power). Video: ([avi](http://treo.deri.ie/iswc2014demo/word_sense_disambiguation.avi)) ([ogv](http://treo.deri.ie/iswc2014demo/word_sense_disambiguation.ogv)).
+Simple word sense disambiguation ([link](http://labcores.ppgi.ufrj.br/esa-demo/sensedisambig.html)): Add a sentence (e.g. the power grid went down), select a word to get the ranked senses (e.g. power). Video: ([avi](http://treo.deri.ie/iswc2014demo/word_sense_disambiguation.avi)) ([ogv](http://treo.deri.ie/iswc2014demo/word_sense_disambiguation.ogv)).
+-->
 
 ## 8\. License
 
