@@ -62,7 +62,7 @@ Install [MongoDB](https://www.mongodb.org/downloads)
 
 EasyESA distribution package: [easyEsa](http://labcores.ppgi.ufrj.br/easyesa/files/easyesa_dist.7z) (includes binaries and source)
 
-Database and Indexes: [English Wikipedia 2013](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2013.tar.gz) ([Index](http://labcores.ppgi.ufrj.br/esa_downloads/index_wikipedia_en_2013.zip)) or [English Wikipedia 2006](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2006.7z).  
+Database and Indexes: [English Wikipedia 2013](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2013.tar.gz) ([Index](http://labcores.ppgi.ufrj.br/esa_downloads/index_wikipedia_en_2013.tar.gz)) or [English Wikipedia 2006](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2006.7z).  
 
 ## 5\. Installation
 
@@ -84,7 +84,7 @@ The setup can be done in three ways, depending on the user needs and memory/stor
 
 ### 5.1\. Simple run (Recommended)  
 
-You can download the EasyESA database and indexes for [English Wikipedia 2013](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2013.zip) ([Index](http://labcores.ppgi.ufrj.br/easyesa/files/index_wikipedia_en_2013.zip)) or [English Wikipedia 2006](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2006.7z).  
+You can download the EasyESA database and indexes for [English Wikipedia 2013](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2013.zip) ([Index](http://labcores.ppgi.ufrj.br/easyesa/files/index_wikipedia_en_2013.tar.gz)) or [English Wikipedia 2006](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2006.7z).  
 
 Simple procedure:  
 
