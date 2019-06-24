@@ -111,7 +111,7 @@ public class MongoESAServlet extends HttpServlet {
 				String term2 = request.getParameter("term2") ;
 								
 				if (term1 == null || term2 == null) {
-					response.setContentType("text/html");
+					response.setContentType("application/json");
 					response.getWriter().append("-1") ;
 					return ;
 				}
@@ -143,13 +143,13 @@ public class MongoESAServlet extends HttpServlet {
 				String term2 = request.getParameter("term2") ;
 				
 				if (term1 == null || term2 == null) {
-					response.setContentType("text/html");
+					response.setContentType("application/json");
 					response.getWriter().append("-1") ;
 					return ;
 				}
 				else {
 					final double sim = esa.getRelatedness(term1, term2);
-					response.setContentType("text/html");
+					response.setContentType("application/json");
 					if(sim == -1){
 						response.getWriter().append(String.valueOf(sim)) ;
 					}
@@ -169,7 +169,9 @@ public class MongoESAServlet extends HttpServlet {
 			//process compare request
 			if (task.equals("vector")) {
 				final String source = request.getParameter("source");				
-				final String strLimit = request.getParameter("limit"); 
+				final String strLimit = request.getParameter("limit");
+				
+				response.setContentType("application/json");
 				
 				int limit;
 				
@@ -181,13 +183,10 @@ public class MongoESAServlet extends HttpServlet {
 				}
 				
 				if (source == null) {
-					response.setContentType("text/html");
 					response.getWriter().append("null") ;
 					return ;
 				}
-				else {					
-					response.setContentType("text/html");
-					
+				else {
 					final IConceptVector cv = esa.getConceptVector(source);
 					
 					if(cv == null){
@@ -216,14 +215,23 @@ public class MongoESAServlet extends HttpServlet {
 							titles.put((Integer)art.get("id"), (String)art.get("title")); 
 						}
 						
-						
+						//ArrayList<String> resp = new ArrayList<String>();
+						ArrayList<HashMap<String, Object>> resp = new ArrayList<HashMap<String, Object>>();
 						it.reset();
 						count = 0;
 						while(it.next() && count < limit){
+							HashMap<String, Object> dimObj = new HashMap<String, Object>();
 							int id = it.getId();
-							response.getWriter().append(id + "\t" + titles.get(id) + "\t" + df.format(vals.get(id)) + "\n") ;
+							dimObj.put("id", id);
+							dimObj.put("title", titles.get(id));
+							dimObj.put("value", vals.get(id));
+									
+							//resp.add(id + "," + titles.get(id) + "," + df.format(vals.get(id)));
+							resp.add(dimObj);
 							count++;
 						}
+						
+						response.getWriter().write(new Gson().toJson(resp));
 					}
 					
 					//eTime = System.currentTimeMillis();

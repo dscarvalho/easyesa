@@ -34,8 +34,8 @@ public class ESAJettyServer {
 		
 		server.setHandler(context);
 		 
-		context.addServlet(new ServletHolder(new MongoESAServlet()),"/mongoservice");
-		context.addServlet(new ServletHolder(new ESAServlet()),"/service");
+		context.addServlet(new ServletHolder(new MongoESAServlet()),"/esaservice");
+		//context.addServlet(new ServletHolder(new ESAServlet()),"/service");
 		
 		server.start();
 		server.join();
