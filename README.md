@@ -140,7 +140,7 @@ The steps 1, 3 and 4 will be skipped.
 
 EasyESA service can be used online from
 
-<pre>  http://labcores.ppgi.ufrj.br/esaservice 
+<pre>  http://lasics.dcc.ufrj.br/esaservice 
 </pre>
 
 or locally
@@ -177,7 +177,7 @@ The service parameters are:
 
 #### 6.1.1\. Semantic relatedness measure query
 
-<pre>  http://labcores.ppgi.ufrj.br/esaservice?task=esa&term1=computing&term2=sensor
+<pre>  http://lasics.dcc.ufrj.br/esaservice?task=esa&term1=computing&term2=sensor
 </pre>
 
 Query for the semantic relatedness measure between the words _computing_ and _sensor_.
@@ -186,7 +186,7 @@ Query for the semantic relatedness measure between the words _computing_ and _se
 
 #### 6.1.2\. Concept vector query
 
-<pre>  http://labcores.ppgi.ufrj.br/esaservice?task=vector&source=coffee&limit=50
+<pre>  http://lasics.dcc.ufrj.br/esaservice?task=vector&source=coffee&limit=50
 </pre>
 
 Query for the concept vector of the word _coffee_ with maximum length of 50 concepts.
@@ -195,12 +195,12 @@ Query for the concept vector of the word _coffee_ with maximum length of 50 conc
 
 #### 6.1.3\. Explain query
 
-<pre>  http://labcores.ppgi.ufrj.br/esaservice?task=explain&term1=computing&term2=sensor&limit=10000
+<pre>  http://lasics.dcc.ufrj.br/esaservice?task=explain&term1=computing&term2=sensor&limit=10000
 </pre>
 
 Query for the concept vector overlapping between the words _computing_ and _sensor_, and the context windows of both words for each concept in the overlap.  
 
-## 7\. Demonstrations  
+<!-- ## 7\. Demonstrations  -->
 
 <!--
 Simple semantic search ([link](http://labcores.ppgi.ufrj.br/esa-demo/semsearch.html)): Add data items (e.g. apple, juice, einstein, theory, speed of light, ...) and do a keyword search (e.g. relativity). Video: ([avi](http://treo.deri.ie/iswc2014demo/semantic_search.avi)) ([ogv](http://treo.deri.ie/iswc2014demo/semantic_search.ogv)).  
