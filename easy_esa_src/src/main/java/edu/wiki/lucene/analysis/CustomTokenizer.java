@@ -1,4 +1,4 @@
-package org.apache.lucene.analysis;
+package edu.wiki.lucene.analysis;
 
 /**
  * Licensed to the Apache Software Foundation (ASF) under one or more
@@ -21,6 +21,7 @@ import java.io.Reader;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.apache.lucene.analysis.CharTokenizer;
 import org.apache.lucene.util.AttributeSource;
 
 /** A WhitespaceTokenizer is a tokenizer that divides text at whitespace.

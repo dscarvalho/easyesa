@@ -18,8 +18,8 @@
 				<version>2.3.2</version>
 				<!-- <version>2.3.2</version> -->
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>11</source>
+					<target>11</target>
 				</configuration>
 			</plugin>
 			
@@ -64,7 +64,7 @@
 	<repositories>
 		<repository>
 			<id>central</id>
-			<url>http://repo1.maven.org/maven2/</url>
+			<url>https://repo1.maven.org/maven2/</url>
 		</repository>
 	</repositories>
 
@@ -90,7 +90,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.12</version>
+			<version>8.0.16</version>
 		</dependency>
 
 		<dependency>
@@ -108,73 +108,73 @@
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-server</artifactId>
-			<version>[9.3.24.v20180605,)</version>
+			<version>[9.4.34.v20201102,)</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-servlet</artifactId>
-			<version>[9.3.24.v20180605,)</version>
+			<version>[9.4.34.v20201102,)</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-util</artifactId>
-			<version>[9.3.24.v20180605,)</version>
+			<version>[9.4.34.v20201102,)</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-io</artifactId>
-			<version>[9.3.24.v20180605,)</version>
+			<version>[9.4.34.v20201102,)</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-http</artifactId>
-			<version>[9.3.24.v20180605,)</version>
+			<version>[9.4.34.v20201102,)</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-security</artifactId>
-			<version>[9.3.24.v20180605,)</version>
+			<version>[9.4.34.v20201102,)</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-client</artifactId>
-			<version>[9.3.24.v20180605,)</version>
+			<version>[9.4.34.v20201102,)</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-continuation</artifactId>
-			<version>[9.3.24.v20180605,)</version>
+			<version>[9.4.34.v20201102,)</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-plus</artifactId>
-			<version>[9.3.24.v20180605,)</version>
+			<version>[9.4.34.v20201102,)</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-rewrite</artifactId>
-			<version>[9.3.24.v20180605,)</version>
+			<version>[9.4.34.v20201102,)</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-servlets</artifactId>
-			<version>[9.3.24.v20180605,)</version>
+			<version>[9.4.34.v20201102,)</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-xml</artifactId>
-			<version>[9.3.24.v20180605,)</version>
+			<version>[9.4.34.v20201102,)</version>
 		</dependency>
 
 		<dependency>
@@ -188,6 +188,18 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.1</version>
 		</dependency>
+		
+		<dependency>
+		    <groupId>xerces</groupId>
+		    <artifactId>xercesImpl</artifactId>
+		    <version>2.12.0</version>
+		    
+		    <exclusions>
+		        <exclusion>
+		            <groupId>java.xml</groupId>
+		            <artifactId>java.xml</artifactId>
+		        </exclusion>
+		    </exclusions>
+		</dependency>
 	</dependencies>
-
 </project>

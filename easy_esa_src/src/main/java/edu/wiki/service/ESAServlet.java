@@ -23,8 +23,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.w3c.dom.Document;
 
-import com.sun.org.apache.xerces.internal.dom.DocumentImpl;
-import com.sun.org.apache.xerces.internal.parsers.DOMParser;
+import org.apache.xerces.dom.DocumentImpl;
+import org.apache.xerces.parsers.DOMParser;
 
 import edu.wiki.api.concept.IConceptIterator;
 import edu.wiki.api.concept.IConceptVector;

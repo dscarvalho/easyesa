@@ -10,10 +10,9 @@ import java.util.Set;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.CharArraySet;
-import org.apache.lucene.analysis.CustomFilter;
-import org.apache.lucene.analysis.CustomTokenizer;
+import edu.wiki.lucene.analysis.CustomFilter;
+import edu.wiki.lucene.analysis.CustomTokenizer;
 import org.apache.lucene.analysis.LengthFilter;
-import org.apache.lucene.analysis.LetterTokenizer;
 import org.apache.lucene.analysis.LowerCaseFilter;
 import org.apache.lucene.analysis.PorterStemFilter;
 import org.apache.lucene.analysis.StopFilter;

@@ -5,6 +5,8 @@ import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 
+import jakarta.servlet.Servlet;
+
 
 public class ESAJettyServer {
 	
@@ -34,7 +36,7 @@ public class ESAJettyServer {
 		
 		server.setHandler(context);
 		 
-		context.addServlet(new ServletHolder(new MongoESAServlet()),"/esaservice");
+		context.addServlet(new ServletHolder((Servlet) new MongoESAServlet()),"/esaservice");
 		//context.addServlet(new ServletHolder(new ESAServlet()),"/service");
 		
 		server.start();
