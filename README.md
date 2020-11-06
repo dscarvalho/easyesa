@@ -62,7 +62,7 @@ Install [MongoDB](https://www.mongodb.org/downloads)
 
 EasyESA distribution package: [easyEsa](http://labcores.ppgi.ufrj.br/easyesa/files/easyesa_dist.7z) (includes binaries and source)
 
-Database and Indexes: [English Wikipedia 2013](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2013.tar.gz) ([Index](http://labcores.ppgi.ufrj.br/easyesa/files/index_wikipedia_en_2013.tar.gz)) or [English Wikipedia 2006](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2006.7z).  
+Database and Indexes: [English Wikipedia 2013](http://lasics.dcc.ufrj.br/~danilo/files/easyesa/data_wikipedia_en_2013.tar.gz) ([Index](http://lasics.dcc.ufrj.br/~danilo/files/easyesa/index_wikipedia_en_2013.tar.gz)) .  
 
 ## 5\. Installation
 
@@ -84,7 +84,7 @@ The setup can be done in three ways, depending on the user needs and memory/stor
 
 ### 5.1\. Simple run (Recommended)  
 
-You can download the EasyESA database and indexes for [English Wikipedia 2013](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2013.tar.gz) ([Index](http://labcores.ppgi.ufrj.br/easyesa/files/index_wikipedia_en_2013.tar.gz)) or [English Wikipedia 2006](http://labcores.ppgi.ufrj.br/easyesa/files/data_wikipedia_en_2006.7z).  
+You can download the EasyESA database and indexes for [English Wikipedia 2013](http://lasics.dcc.ufrj.br/~danilo/files/easyesa/data_wikipedia_en_2013.tar.gz) ([Index](http://lasics.dcc.ufrj.br/~danilo/files/easyesa/index_wikipedia_en_2013.tar.gz)).  
 
 Simple procedure:  
 
@@ -212,15 +212,12 @@ Simple word sense disambiguation ([link](http://labcores.ppgi.ufrj.br/esa-demo/s
 
 EasyESA is distributed under [GPL](https://www.gnu.org/copyleft/gpl.html).  
 
-## 9\. Benchmark  
-
-An EasyESA benchmark is available [here](http://easy-esa.org/easyesa_bench_results.txt).  
 
 ## 10\. Publication  
 
 Please refer to the publication below if you are using ESA in your experiments.  
 
-Danilo Carvalho, Çağatay Çallı, André Freitas, Edward Curry, _EasyESA: A Low-effort Infrastructure for Explicit Semantic Analysis_, In Proceedings of the 13th International Semantic Web Conference (ISWC), Rival del Garda, 2014\. (Demonstration Paper in Proceedings) ([pdf](http://andrefreitas.org/papers/easyesa_demo_2014.pdf))
+Danilo Carvalho, Çağatay Çallı, André Freitas, Edward Curry, _EasyESA: A Low-effort Infrastructure for Explicit Semantic Analysis_, In Proceedings of the 13th International Semantic Web Conference (ISWC), Rival del Garda, 2014\. (Demonstration Paper in Proceedings) ([pdf](http://ceur-ws.org/Vol-1272/paper_137.pdf))
 
 ## 11\. Contact  
 
